@@ -1,0 +1,33 @@
+.footerBlock {
+  background-color: $mainColor;
+  color: $whiteColor;
+  padding-top: 44px;
+  text-align: center;
+
+  &__inner1 {
+    padding-bottom: 41px;
+  }
+
+  &__inner2 {
+     margin-bottom: 23px;
+  }
+
+  &__imgBlock {
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  &_linkColor {
+    color: $whiteColor;
+  }
+
+  &__bottom {
+    background-color: #323232;
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,16 @@
+.mainNav {
+  background-color:  #FFFFFF;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logoArea {
+    padding-left: 5px;
+  }
+}
+
+

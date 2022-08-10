@@ -1,0 +1,44 @@
+.formBlock {
+  padding: 25px 0 0 9px;
+  display: flex;
+
+  &__inputName {
+    width: 31%;
+    margin-right: 20px;
+  }
+
+  &__inputEmail {
+    width: 46%;
+    margin-right: 20px;
+  }
+
+  &__input {
+    width: 100%;
+    line-height: 20.08px;
+    font: 16px $mulishFont;
+    color: $mainColor;
+    display: inline-block;
+    padding: 17px 25px 20px 25px;
+    border: transparent;
+
+    &::placeholder {
+      font: italic 16px $mulishFont;
+      line-height: 20px;
+      letter-spacing: 1.5px;
+    }
+
+    &:focus {
+      outline: none !important;
+      border: 1px solid $darkGreen;
+    }
+  }
+
+  &_btn {
+    padding: 18px 42px 12px 41px;
+
+    &:hover {
+      background-color: $mediumGreen;
+      cursor: pointer;
+    }
+  }
+}

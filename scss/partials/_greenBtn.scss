@@ -1,0 +1,11 @@
+.greenBtn {
+  display: inline-block;
+  color: $whiteColor;
+  text-transform: uppercase;
+  background-color: $darkGreen;
+  border: transparent;
+  padding: 23px 66px 18px;
+  font: 700 16px $josephFont;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+}

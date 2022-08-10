@@ -1,0 +1,36 @@
+.tagCloud {
+  padding: 31px 0 10px;
+
+  &__tags {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-family: $josephFont;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    margin-bottom: 29px;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: $darkGreen;
+    color: $whiteColor;
+    height: auto;
+    max-width: 167px;
+    margin: 0 16px 13px 0;
+    padding: 13px 16px 12px 14px;
+
+    &:hover {
+      background-color: $mediumGreen;
+    }
+  }
+
+  &__seeMore {
+    color: inherit;
+  }
+}

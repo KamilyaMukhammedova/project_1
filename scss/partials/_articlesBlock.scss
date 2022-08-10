@@ -1,0 +1,89 @@
+.articlesBlock {
+  width: 75%;
+  padding-top: 36px;
+
+  &__list {
+    list-style: none;
+    margin-bottom: 38px;
+    padding-left: 5px;
+  }
+
+  &__listItem {
+    display: inline-block;
+    padding-right: 38px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    line-height: 34px;
+    letter-spacing: 1.5px;
+    &:active {
+      color: $darkGreen;
+      font-weight: 800;
+    }
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 51px;
+    padding-left: 3px;
+  }
+
+  &__imgBlock {
+    width: 51%;
+    position: relative;
+    padding-right: 0;
+    &:hover .hoverBox {
+      display: block;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    padding: 5px 32px 0 24px;
+    margin-left: 25px;
+  }
+
+  &_titleMargin {
+    margin-bottom: 6px;
+  }
+
+  &__text {
+    padding: 2px 57px 0 0;
+    margin-bottom: 13px;
+  }
+
+  &_readMore {
+    margin-top: auto;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+}
+
+.hoverBox {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 9999;
+  font-weight: 800;
+  line-height: 24px;
+  padding: 28px 0 0 34px;
+
+  &__dateBox, &__tags {
+    padding-bottom: 25px;
+  }
+
+  &__item {
+    display: block;
+  }
+}

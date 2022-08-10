@@ -1,0 +1,28 @@
+.callToActionBlock {
+  margin: 30px 48px 0 48px;
+  background: url(../../images/mainPic.png) 50% 50%/100% no-repeat;
+  text-align: center;
+  padding: 118px 0;
+
+  &__box {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 54%;
+    margin: 0 auto;
+    padding: 40px 87px 55px;
+  }
+
+  &__title {
+    font: 400 28px $josephFont;
+    line-height: 28px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    padding: 0 47px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 22.59px;
+    letter-spacing: 1.5px;
+    margin: 26px 0 45px;
+  }
+}

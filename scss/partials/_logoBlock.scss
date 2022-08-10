@@ -1,0 +1,11 @@
+.logoBlock {
+  &__text {
+    font-family: $josephFont;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+  }
+}

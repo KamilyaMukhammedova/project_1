@@ -1,0 +1,12 @@
+.socialLinks {
+  &__link {
+    color: #454545;
+    font-size: 23px;
+    margin-right: 21px;
+
+    &:hover {
+      color: $mediumGreen;
+      cursor: pointer;
+    }
+  }
+}

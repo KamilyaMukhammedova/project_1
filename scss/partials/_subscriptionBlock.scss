@@ -1,0 +1,22 @@
+.subscriptionBlock {
+  background-color: #E2EEEA;
+  padding: 68px 0 63px;
+
+  &__content {
+    margin: 0 auto;
+    max-width: 69%;
+  }
+
+  &_title {
+    margin-top: 0;
+  }
+
+  &__text {
+    text-align: center;
+  }
+
+  &__info {
+    padding: 0 5rem;
+    margin-top: 18px;
+  }
+}
